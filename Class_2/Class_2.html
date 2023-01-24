@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Nivelatorio en Estadística y Matemáticas</title>
+    <title>Nivelatorio en Estadística</title>
     <meta charset="utf-8" />
-    <meta name="author" content="PhD. St. Orlando Joaqui-Barandica" />
-    <meta name="date" content="2021-01-01" />
+    <meta name="author" content="PhD.(C) Orlando Joaqui-Barandica" />
+    <meta name="date" content="2023-01-01" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/rladies.css" rel="stylesheet" />
@@ -19,6 +19,8 @@
     <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
     <link href="libs/font-awesome/css/all.min.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="fonts_mtheme.css" type="text/css" />
+    <link rel="stylesheet" href="sydney.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -28,17 +30,18 @@
 
 
 class: inverse, left, bottom
-background-image: url("img/Logo.jpg")
+background-image: url("img/fondo.jpg")
 background-size: cover
 
 
-# **Nivelatorio en Estadística y Matemáticas**
+# **Nivelatorio en Estadística**
 ----
 
 ## **&lt;br/&gt; Aplicaciones estadísticas en R: Introducción**
 
-### PhD. St. Orlando Joaqui-Barandica
-### 2021
+### PhD.(C) Orlando Joaqui-Barandica
+### 2023
+
 
 
 
@@ -56,10 +59,8 @@ width="150px"
 
 --
 
-## Maestría en Política Social
+## Maestría en Finanzas
 ---
-
-
 
 
 .pull-left[
@@ -75,12 +76,13 @@ width="150px"
 .pull-right[
 # Orlando Joaqui-Barandica
 ### [www.joaquibarandica.com](https://www.joaquibarandica.com)
- *PhD. Student in Industrial Engineering* 
+ *PhD.(C) in Industrial Engineering* 
  
  *MSc. Applied Economics*
  
  *BSc. Statistics*
 ]
+
 
 ---
 
@@ -370,9 +372,8 @@ Salaries &lt;- read_excel("salaries.xlsx", sheet=1)
 
 Dado que los libros de trabajo pueden tener más de una hoja de trabajo, puede especificar la que desee con la opción `sheet`. El valor predeterminado es `sheet=1`.
 
-&lt;br&gt;
-
 &gt; También se puede utilizar la función `read_xlsx()`
+
 ]
 
 
@@ -604,7 +605,7 @@ newdata &lt;- select(starwars, -birth_year, -gender)
 
 # <i class="fa fa-broom" role="presentation" aria-label="broom icon"></i> Filtrar observaciones
 
-La función `filter` le permite limitar su conjunto de datos a observaciones (filas) que cumplen un criterio específico. Se pueden combinar varios criterios con los símbolos `&amp;` (Y) y `|` (O).
+La función `filter` le permite limitar su conjunto de datos a observaciones (filas) que cumplen un criterio específico. Se pueden combinar varios criterios con los símbolos &amp; (Y) y | (O).
 
 
 ----
@@ -1189,10 +1190,6 @@ Genere las siguientes estadísticas por grupo, tenga presente si debe recodifica
 2️⃣ Realizar lo mismo del punto 1, para la desviación estándar y mediana.
 
 
-### Se atreve... ? 
-
-<i class="fas  fa-spinner fa-2x fa-spin "></i> Descargue la información de Covid-19 🦠  para Colombia desde 🔗**[Datos Abiertos.](https://www.datos.gov.co/)** Esta base de datos está cerca de los 5 millones de registros, puede ralentizar su PC. Importe los datos a R. Y proponga estadísticas descriptivas para las variables que identifique cuantitativas agrupándolas por variables cualitativas.
-
 
 ]
 
@@ -1346,10 +1343,8 @@ Además de los `theme_` podemos tener múltiples características para mejorar n
 
 
 
-
-
 class: inverse, center, middle
-background-color: #00081d
+background-color: #122140
 
 .pull-left[
 
@@ -1358,11 +1353,18 @@ background-color: #00081d
 
 # Gracias!!!
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
 
 
 
 ### ¿Preguntas?
+
+&lt;br&gt;
+
+
+&lt;img src="img/qr-code.png" width="49%" style="display: block; margin: auto;" /&gt;
+
+
 ]
 
 
@@ -1371,26 +1373,22 @@ background-color: #00081d
 
 .pull-right[
 
+&lt;br&gt; 
+&lt;br&gt; 
 &lt;img style="border-radius: 50%;" src="img/avatar.png"
 width="150px"
 /&gt;
 
 ### [www.joaquibarandica.com](https://www.joaquibarandica.com)
-<i class="fab fa-twitter" role="presentation" aria-label="twitter icon"></i> jotajb5
-
-<i class="fab fa-github" role="presentation" aria-label="github icon"></i> juniorjb5
 
 <i class="fa fa-envelope" role="presentation" aria-label="envelope icon"></i> orlando.joaqui@javerianacali.edu.co
+
+&lt;img src="img/Logo.jpg" width="120%"&gt;
 
 ]
 
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;
-
-----
-
-*Las imágenes utilizadas para ambientar la presentación son de [pixabay](https://pixabay.com/).*  
-Sources: [R for the Rest of Us](https://rfortherestofus.com/), Rob Kabacoff
 
 
 

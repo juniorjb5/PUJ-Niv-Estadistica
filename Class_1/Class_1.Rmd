@@ -12,7 +12,7 @@ output:
       - rladies
       - rladies-fonts
       - fonts_mtheme.css
-      - sidney.css
+      - sydney.css
     seal: false  
     nature:
       ratio: 16:9

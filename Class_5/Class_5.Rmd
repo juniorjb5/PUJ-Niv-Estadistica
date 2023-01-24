@@ -1,9 +1,9 @@
 ---
-title: "Métodos Cuantitativos"
-subtitle: "<br/> Aplicaciones estadísticas en R"
-author: "PhD. St. Orlando Joaqui-Barandica"
+title: "Nivelatorio en Estadística"
+subtitle: "<br/> Aplicaciones estadísticas en R: Introducción"
+author: "PhD.(C) Orlando Joaqui-Barandica"
 institute: "Pontificia Universidad Javeriana de Cali"
-date: "2021"
+date: "2023"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -11,6 +11,7 @@ output:
       - default
       - rladies
       - rladies-fonts
+      - fonts_mtheme.css
       - sydney.css
     seal: false  
     nature:
@@ -38,7 +39,7 @@ options(htmltools.dir.version = FALSE)
 ```
 
 class: inverse, left, bottom
-background-image: url("img/back1.jpg")
+background-image: url("img/fondo.jpg")
 background-size: cover
 
 
@@ -53,6 +54,7 @@ background-size: cover
 ```{r xaringanExtra-share-again, echo=FALSE}
 xaringanExtra::use_share_again()
 ```
+
 
 ```{r xaringanExtra-clipboard, echo=FALSE}
 xaringanExtra::use_clipboard()
@@ -70,10 +72,8 @@ width="150px"
 
 --
 
-## Maestría en Política Social
+## Maestría en Finanzas
 ---
-
-
 
 
 .pull-left[
@@ -91,7 +91,7 @@ knitr::include_graphics("img/gif1.gif")
 .pull-right[
 # Orlando Joaqui-Barandica
 ### [www.joaquibarandica.com](https://www.joaquibarandica.com)
- *PhD. Student in Industrial Engineering* 
+ *PhD.(C) in Industrial Engineering* 
  
  *MSc. Applied Economics*
  
@@ -386,6 +386,7 @@ T2: 57, 67, 55, 64, 61, 63, 63.
 $$
 H_0: \mu_1 -\mu_2 = 0 \quad \quad ; \quad \quad H_1: \mu_1 -\mu_2 \neq 0
 $$
+.scroll-box-12[
 
 ``` r
 
@@ -400,7 +401,7 @@ t.test(x=T1, y=T2, alternative="two.sided", mu=0,
        paired=FALSE, var.equal=TRUE, conf.level=0.97)
        
 ```
-
+]
 
 De la prueba se obtiene un valor-P muy pequeño, por lo tanto, podemos concluir que si hay diferencias significativas entre los eventos de inseguridad con T1 y T2, resultado que ya se sospechaba al observar el diagrama de cajas.
 
@@ -428,6 +429,7 @@ $$
 H_0: \mu_1 -\mu_2 = 0 \quad \quad ; \quad \quad H_1: \mu_1 -\mu_2 \neq 0
 $$
 
+.scroll-box-12[
 ``` r
 
 urb <- c(3, 7, 25, 10, 15, 6, 12, 25, 15, 7)
@@ -442,7 +444,7 @@ t.test(x=urb, y=rur, alternative="two.sided", mu=0,
        paired=FALSE, var.equal=FALSE, conf.level=0.95)
        
 ```
-
+]
 
 De la prueba se obtiene un valor-P pequeño, por lo tanto, podemos concluir que si hay diferencias significativas entre las concentraciones de arsénico del agua entre las dos zonas, resultado que ya se sospechaba al observar el diagrama de cajas.
 
@@ -522,8 +524,9 @@ De la prueba se obtiene un valor-P pequeño, por lo tanto, podemos concluir que 
 
 
 
+
 class: inverse, center, middle
-background-color: #00081d
+background-color: #122140
 
 .pull-left[
 
@@ -532,11 +535,20 @@ background-color: #00081d
 
 # Gracias!!!
 
-<br><br><br><br><br>
+<br>
 
 
 
 ### ¿Preguntas?
+
+<br>
+
+
+```{r qr, echo=FALSE, fig.align="center", out.width="49%"}
+knitr::include_graphics("img/qr-code.png")
+```
+
+
 ]
 
 
@@ -545,23 +557,22 @@ background-color: #00081d
 
 .pull-right[
 
+<br> 
+<br> 
 <img style="border-radius: 50%;" src="img/avatar.png"
 width="150px"
 />
 
 ### [www.joaquibarandica.com](https://www.joaquibarandica.com)
-`r icon("twitter")` jotajb5
-
-`r icon("github")` juniorjb5
 
 `r icon("envelope")` orlando.joaqui@javerianacali.edu.co
+
+<img src="img/Logo.jpg" width="120%">
 
 ]
 
 
 <br><br><br>
 
-----
 
-*Las imágenes utilizadas para ambientar la presentación son de [pixabay](https://pixabay.com/).*  
 

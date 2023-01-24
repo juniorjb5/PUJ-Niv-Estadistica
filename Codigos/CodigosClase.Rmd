@@ -1,7 +1,7 @@
 ---
-title: "Códigos Clase - Maestría en Política Social"
+title: "Códigos Clase - Maestría en Finanzas"
 author: "Orlando Joaqui Barandica <br> www.joaquibarandica.com"
-date: "Agosto - 2021"
+date: "2023"
 output: 
     html_document:
       toc: true

@@ -1,9 +1,9 @@
 ---
-title: "Nivelatorio en Estadística y Matemáticas"
+title: "Nivelatorio en Estadística"
 subtitle: "<br/> Aplicaciones estadísticas en R: Introducción"
-author: "PhD. St. Orlando Joaqui-Barandica"
+author: "PhD.(C) Orlando Joaqui-Barandica"
 institute: "Pontificia Universidad Javeriana de Cali"
-date: "2021"
+date: "2023"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -11,6 +11,8 @@ output:
       - default
       - rladies
       - rladies-fonts
+      - fonts_mtheme.css
+      - sydney.css
     seal: false  
     nature:
       ratio: 16:9
@@ -37,7 +39,7 @@ options(htmltools.dir.version = FALSE)
 ```
 
 class: inverse, left, bottom
-background-image: url("img/Logo.jpg")
+background-image: url("img/fondo.jpg")
 background-size: cover
 
 
@@ -52,6 +54,7 @@ background-size: cover
 ```{r xaringanExtra-share-again, echo=FALSE}
 xaringanExtra::use_share_again()
 ```
+
 
 ```{r xaringanExtra-clipboard, echo=FALSE}
 xaringanExtra::use_clipboard()
@@ -69,10 +72,8 @@ width="150px"
 
 --
 
-## Maestría en Política Social
+## Maestría en Finanzas
 ---
-
-
 
 
 .pull-left[
@@ -90,12 +91,13 @@ knitr::include_graphics("img/gif1.gif")
 .pull-right[
 # Orlando Joaqui-Barandica
 ### [www.joaquibarandica.com](https://www.joaquibarandica.com)
- *PhD. Student in Industrial Engineering* 
+ *PhD.(C) in Industrial Engineering* 
  
  *MSc. Applied Economics*
  
  *BSc. Statistics*
 ]
+
 
 ---
 
@@ -383,9 +385,8 @@ Salaries <- read_excel("salaries.xlsx", sheet=1)
 
 Dado que los libros de trabajo pueden tener más de una hoja de trabajo, puede especificar la que desee con la opción `sheet`. El valor predeterminado es `sheet=1`.
 
-<br>
-
 > También se puede utilizar la función `read_xlsx()`
+
 ]
 
 
@@ -598,7 +599,7 @@ newdata <- select(starwars, -birth_year, -gender)
 
 # `r icon("broom")` Filtrar observaciones
 
-La función `filter` le permite limitar su conjunto de datos a observaciones (filas) que cumplen un criterio específico. Se pueden combinar varios criterios con los símbolos `&` (Y) y `|` (O).
+La función `filter` le permite limitar su conjunto de datos a observaciones (filas) que cumplen un criterio específico. Se pueden combinar varios criterios con los símbolos & (Y) y | (O).
 
 
 ----
@@ -1117,10 +1118,6 @@ Genere las siguientes estadísticas por grupo, tenga presente si debe recodifica
 2️⃣ Realizar lo mismo del punto 1, para la desviación estándar y mediana.
 
 
-### Se atreve... ? 
-
-`r icon::fa("spinner", size = 2, animate = "spin")` Descargue la información de Covid-19 🦠  para Colombia desde 🔗**[Datos Abiertos.](https://www.datos.gov.co/)** Esta base de datos está cerca de los 5 millones de registros, puede ralentizar su PC. Importe los datos a R. Y proponga estadísticas descriptivas para las variables que identifique cuantitativas agrupándolas por variables cualitativas.
-
 
 ]
 
@@ -1295,10 +1292,8 @@ ggplot(data = iris,
 
 
 
-
-
 class: inverse, center, middle
-background-color: #00081d
+background-color: #122140
 
 .pull-left[
 
@@ -1307,11 +1302,20 @@ background-color: #00081d
 
 # Gracias!!!
 
-<br><br><br><br><br>
+<br>
 
 
 
 ### ¿Preguntas?
+
+<br>
+
+
+```{r qr, echo=FALSE, fig.align="center", out.width="49%"}
+knitr::include_graphics("img/qr-code.png")
+```
+
+
 ]
 
 
@@ -1320,26 +1324,22 @@ background-color: #00081d
 
 .pull-right[
 
+<br> 
+<br> 
 <img style="border-radius: 50%;" src="img/avatar.png"
 width="150px"
 />
 
 ### [www.joaquibarandica.com](https://www.joaquibarandica.com)
-`r icon("twitter")` jotajb5
-
-`r icon("github")` juniorjb5
 
 `r icon("envelope")` orlando.joaqui@javerianacali.edu.co
+
+<img src="img/Logo.jpg" width="120%">
 
 ]
 
 
 <br><br><br>
-
-----
-
-*Las imágenes utilizadas para ambientar la presentación son de [pixabay](https://pixabay.com/).*  
-Sources: [R for the Rest of Us](https://rfortherestofus.com/), Rob Kabacoff
 
 
 
