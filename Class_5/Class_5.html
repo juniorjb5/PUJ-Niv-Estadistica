@@ -158,7 +158,7 @@ t.test(x, y = NULL,
 
 # Prueba de Hipótesis para `\(\mu\)` 
 
-Para verificar si el proceso de atención en el plan social de alimentación "2030 sin hambre" está operando correctamente se toman aleatoriamente muestras de tamaño diez,  es decir se selecccionan 10 puntos de atención en dónde se tienen comedores comunitarios. Una muestra de comedores comunitarios está compuesta por las siguientes observaciones: 502, 501, 497, 491, 496, 501, 502, 500, 489, 490.
+Dentro de una Organización sin ánimo de lucro, los recursos financieros destinados para trabajo social son amplios. El gerente financiero de la organización necesita verificar si el proceso de atención en el plan social de alimentación "2030 sin hambre" está operando correctamente se toman aleatoriamente muestras de tamaño diez,  es decir se selecccionan 10 puntos de atención en dónde se tienen comedores comunitarios. Una muestra de comedores comunitarios está compuesta por las siguientes observaciones: 502, 501, 497, 491, 496, 501, 502, 500, 489, 490.
 
 Si se ha establecido que deben atenderse en promedio 500 personas ¿Está el proceso de atención conforme al plan? Use un nivel de significancia del 5%.
 
@@ -239,7 +239,7 @@ prop.test(x, n, p = NULL,
 
 # Prueba de Hipótesis para `\(P\)` 
 
-Un grupo de investigadores de la alcaldía afirma que su política de atención a la primera infancia en una comunidad determinada alcanza el 90% de todos los infantes. Para poner a prueba esta afirmación se toman 200 niños de los cuales solo 174 hacen parte del programa de atención a primera infancia. Pruebe la afirmación del grupo de investigadores de la alcaldía a un nivel de significancia del 5%, identificando realmente que la política tiene éxito respecto a la meta planteada.
+Un grupo de emprendedores del ChatGPT afirma que su algoritmo supera el 90% de todos los usuarios de determinado sector de la industria de retail. Microsoft está interesado en comprar el algoritmo. Para poner a prueba esta afirmación se toman 200 compañías del sector de la industria de retail de los cuales solo 174 utilizan el programa. Pruebe la afirmación del grupo de emprendedores a un nivel de significancia del 5%.
 
 
 --
@@ -249,7 +249,7 @@ H_0: P = 0.90
 $$
 
 $$
-H_1: P &lt; 0.90
+H_1: P &gt; 0.90
 $$
 
 
@@ -260,13 +260,13 @@ $$
 z &lt;- (174/200 - 0.90) / sqrt(0.90 * (1 - 0.90) / 200)
 z  # Para obtener el valor del estadístico
 
-pnorm(q=z, lower.tail=TRUE)  # Para obtener el valor-P
+pnorm(q=z, lower.tail=FALSE)  # Para obtener el valor-P
 
 ``` 
 
 --
 
-Como el valor-P es 7.8%, no se rechaza la hipótesis nula. De tal manera, la política de atención a la primera infancia si ha llegado al 90% o más de los infantes en la comunidad.
+Como el valor-P es 92%, no se rechaza la hipótesis nula. De tal manera, los emprendedores no han llegado al 90% o más de las empresas en el sector.
 
 ---
 
@@ -284,7 +284,7 @@ H_0: P = 0.90
 $$
 
 $$
-H_1: P &lt; 0.90
+H_1: P &gt; 0.90
 $$
 
 
@@ -292,14 +292,15 @@ $$
 
 ``` r
 
-prop.test(x=174, n=200, p=0.9, alternative='less',
+prop.test(x=174, n=200, p=0.9, alternative='greater',
           conf.level=0.95, correct=FALSE)
 
 ``` 
 
 --
 
-Como el valor-P es 7.8%, no se rechaza la hipótesis nula. De tal manera, la política de atención a la primera infancia si ha llegado al 90% o más de los infantes en la comunidad.
+Como el valor-P es 92%, no se rechaza la hipótesis nula. De tal manera, los emprendedores no han llegado al 90% o más de las empresas en el sector.
+
 
 ---
 
@@ -358,7 +359,7 @@ t.test(x, y = NULL,
 # Prueba de Hipótesis para la diferencia de medias `\(\mu_1 - \mu_2\)` 
 
 
-Se realiza un estudio para comparar dos tratamientos o políticas que se aplicarán a dos sectores que han sido altamente vulnerables a la inseguridad (Robos, Homicidios, etc). La variable respuesta es el número de eventos de inseguridad que se tienen al aplicarse cada tratamiento o política. Los datos se muestran abajo. ¿Existen diferencias entre el número de eventos observados al aplicarse cada política? Usar `\(\alpha = 0.03\)`. Asuma que las varianzas son iguales
+Se realiza un estudio para comparar dos programas de seguridad de código financiero que se aplicarán a dos sectores que han sido altamente vulnerables a la inseguridad cibernética. La variable respuesta es el número de eventos de inseguridad que se tienen al aplicarse cada tratamiento (programa de seguridad). Los datos se muestran abajo. ¿Existen diferencias entre el número de eventos observados al aplicarse cada programa de seguridad? Usar `\(\alpha = 0.03\)`. Asuma que las varianzas son iguales
 
 T1: 76, 85, 74, 78, 82, 75, 82.
 
@@ -400,9 +401,9 @@ De la prueba se obtiene un valor-P muy pequeño, por lo tanto, podemos concluir 
 
 Usted necesita evaluar la situación de contaminación del agua en una región contrastanto el área rural vs urbana, para definir una política pública de acceso a servicios. El arsénico en agua potable es un posible riesgo para la salud. Un artículo reciente reportó concentraciones de arsénico en agua potable en partes por billón (ppb) para diez comunidades urbanas y diez comunidades rurales. Los datos son los siguientes:
 
-Urbana: 3, 7, 25, 10, 15, 6, 12, 25, 15, 7
+&gt;Urbana: 3, 7, 25, 10, 15, 6, 12, 25, 15, 7
 
-Rural: 48, 44, 40, 38, 33, 21, 20, 12, 1, 18
+&gt;Rural: 48, 44, 40, 38, 33, 21, 20, 12, 1, 18
 
 
 ¿Existen diferencias entre las concentraciones de arsénico de la zona urbana y rural? Usar un nivel de significancia del 5%. Asuma varianzas diferentes.
@@ -413,8 +414,16 @@ Rural: 48, 44, 40, 38, 33, 21, 20, 12, 1, 18
 $$
 H_0: \mu_1 -\mu_2 = 0 \quad \quad ; \quad \quad H_1: \mu_1 -\mu_2 \neq 0
 $$
+.pull-left[
 
-.scroll-box-12[
+
+&gt; De la prueba se obtiene un valor-P pequeño, por lo tanto, podemos concluir que si hay diferencias significativas entre las concentraciones de arsénico del agua entre las dos zonas, resultado que ya se sospechaba al observar el diagrama de cajas.
+
+]
+
+.pull-rigth[
+
+.scroll-box-10[
 ``` r
 
 urb &lt;- c(3, 7, 25, 10, 15, 6, 12, 25, 15, 7)
@@ -431,9 +440,8 @@ t.test(x=urb, y=rur, alternative="two.sided", mu=0,
 ```
 ]
 
-De la prueba se obtiene un valor-P pequeño, por lo tanto, podemos concluir que si hay diferencias significativas entre las concentraciones de arsénico del agua entre las dos zonas, resultado que ya se sospechaba al observar el diagrama de cajas.
 
-
+]
 
 
 
@@ -443,7 +451,7 @@ name: P2
 
 # Prueba de Hipótesis para la diferencia de proporciones `\(P_1 - P_2\)` 
 
-Se quiere determinar si hay diferencia en la proporción de hombres y mujeres beneficiarios de un programa de adulto mayor. Para esta comparación se tomaron 2 muestras, una de hombres (75 son beneficiarios de un total de 1500 en la muestra) y otra de mujeres (80 son beneficiarias de un total de 2000 en la muestra). Realizar una prueba de hipótesis con un nivel de significancia del 10%.
+A las finanzas públicas se les debe hacer control. Se quiere determinar si hay diferencia en la proporción de hombres y mujeres beneficiarios de un programa de adulto mayor. Para esta comparación se tomaron 2 muestras, una de hombres (75 son beneficiarios de un total de 1500 en la muestra) y otra de mujeres (80 son beneficiarias de un total de 2000 en la muestra). Realizar una prueba de hipótesis con un nivel de significancia del 10%.
 
 
 
@@ -471,7 +479,7 @@ name: Mu3
 
 # Prueba de Hipótesis para la diferencia de medias pareadas
 
-La mal nutrición es un problema que aqueja la sociedad. De tal manera, usted quiere consolidar un programa sobre la obesidad. Diez individuos participaron de programa para perder peso corporal por medio de una dieta. Los voluntarios fueron pesados antes y después de haber participado del programa y los datos en libras aparecen abajo. ¿Hay evidencia que soporte la afirmación de la dieta disminuye el peso medio de los participantes? Usar nivel de significancia del 5%.
+Usted asesora a una compañía nacional en el sector de la salud y nutrición, ya que, la mal nutrición es un problema que aqueja la sociedad. Diez individuos participaron de un programa para perder peso corporal por medio de una dieta. Los voluntarios fueron pesados antes y después de haber participado del programa y los datos en libras aparecen abajo. ¿Hay evidencia que soporte la afirmación de la dieta disminuye el peso medio de los participantes? Usar nivel de significancia del 5%.
 
 **Antes**	195 213 247 201 187 210 215 246 294 310
 

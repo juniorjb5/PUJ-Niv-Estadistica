@@ -331,9 +331,9 @@ background-color: #A93226
 
 # Punto 1
 
-Las tendencias depresivas en infantes (Menores de 10 años) se presentan en 7 de cada 1000 menores. Hallar la probabilidad de que al examinar 50 menores sólo haya uno con síntomas de depresión. 
+Las tendencias a la baja en acciones de cierto mercado XYZ se presentan en 7 de cada 1000 activos. Hallar la probabilidad de que al examinar 50 activos sólo haya uno con tendencia a la baja. 
 
-![](https://media.giphy.com/media/l0vTG5goNqEaeGSDTW/giphy.gif)
+![](https://media.giphy.com/media/9cWrk07kjAJdC6jHta/giphy.gif)
 
 ]
 
@@ -342,16 +342,16 @@ Las tendencias depresivas en infantes (Menores de 10 años) se presentan en 7 de
 
 # Punto 2
 
-La probabilidad de éxito de un determinado esquema terapéutico es 0,72. Calcular la probabilidad de que una vez intervenidos 15 pacientes: 
+La probabilidad de éxito de un determinado modelo financiero es 0.72. Calcular la probabilidad de que una vez intervenidos 15 empresas: 
 
-**a)** Todos sean declarados exitoso 
+**a)** Todas sean declaradas exitosas
 
-**b)** Ninguno sea declarado exitoso 
+**b)** Ninguna sea declarada exitosa
 
-**c)** Trece de ellos sean declarados exitosos 
+**c)** Trece de estas empresas sean declaradas exitosas 
 
 
-![](https://media.giphy.com/media/meYalK5F8gg1pPiIHJ/giphy.gif)
+![](https://media.giphy.com/media/524L7nbZSgvdv4woq0/giphy.gif)
 
 
 ]
@@ -370,14 +370,14 @@ background-color: #A93226
 
 # Punto 3
 
-La probabilidad de que un paciente se recupere de un duelo por la pérdida de un pariente en primer grado de consanguinidad es 0.4., 15 personas han sido intervenidas como pacientes por perdida de una pariente de grado de consanguinidad 1.
+La probabilidad de que una empresa se recupere de una crisis financiera por posible insolvencia es 0.4., 15 empresas han sido intervenidas por posibles problemas de insolvencia.
 
 **a)** ¿Cuál es la probabilidad de que al menos 10 se recuperen? 
 
-**b)** ¿Cuál es la probabilidad de entre 3 y 8 pacientes se recuperen? 
+**b)** ¿Cuál es la probabilidad de entre 3 y 8 empresas se recuperen? 
 
 
-![](https://media.giphy.com/media/WF106rMtrOW8E/giphy.gif)
+![](https://media.giphy.com/media/SEWEmCymjv8XDbsb8I/giphy.gif)
 
 ]
 
@@ -386,7 +386,7 @@ La probabilidad de que un paciente se recupere de un duelo por la pérdida de un
 
 # Punto 4
 
-En ciudad la necesidad de dinero para comprar drogas se establece como la razón del 75% de los robos. Encuentre la probabilidad de que entre los siguientes cinco casos de robo: 
+En una ciudad la necesidad de dinero para comprar drogas se establece como la razón del 75% de los robos. Encuentre la probabilidad de que entre los siguientes cinco casos de robo: 
 
 Robo por droga = 0,75; 
 Robo por otra causa = 0.25;
@@ -416,20 +416,20 @@ background-color: #A93226
 
 .pull-left[
 
-De acuerdo con un estudio publicado por un grupo de sociólogos de la Universidad de  Massachussets aproximadamente el 30% de los consumidores de Valium en el estado de Massachussets tomaron Valium por primera vez debido a problemas psicológicos. Encuentre la probabilidad de que en un grupo de ocho sujetos con problemas psicológicos:
+De acuerdo con un estudio publicado por un grupo de investigadores, aproximadamente el 30% de los consumidores de redes sociales puede realizar inversiones en Bitcoin. Encuentre la probabilidad de que en un grupo de ocho sujetos con consumo de redes sociales:
 
 
-**a)** Tres comenzaron a tomar Valium por problemas psicológicos. 
+**a)** Tres inviertan en Bitcoin. 
 
-**b)** Al menos cinco comenzaron a consumir Valium por problemas que no fueron psicológicos. 
+**b)** Al menos cinco inviertan en Bitcoin. 
 
-**c)** No más de 5 comenzaran a consumir por primera vez Valium. 
+**c)** No más de 5 comenzaran a inveretir en Bitcoin. 
 
 ]
 
 .pull-right[
 
-![](https://media.giphy.com/media/01o7B1W0DF1tzLxnZB/giphy.gif)
+![](https://media.giphy.com/media/trN9ht5RlE3Dcwavg2/giphy.gif)
 
 ]
 

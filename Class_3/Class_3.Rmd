@@ -159,10 +159,12 @@ name: Punto1
 # Punto 1
 
 
-**Uso de antibióticos en niños.** El gráfico de barras y el gráfico circular a continuación muestran la distribución de las condiciones médicas preexistentes de los niños que participaron en un estudio sobre la duración óptima del uso de antibióticos en el tratamiento de la traqueítis, que es una infección de las vías respiratorias superiores.
+**Las decisiones financieras de una multinacional farmaceutica** dependen en gran manera de la viabilidad de sus productos, por ende, el análisis de las contraindicaciones que estos puedan tener dependiendo ciertas enfermedades pre-existentes es escencial. 
+
+> El gráfico de barras y el gráfico circular a continuación muestran la distribución de las .orange[condiciones médicas pre-existentes] de los niños que participaron en un estudio sobre la duración óptima del uso de antibióticos en el tratamiento de la traqueítis, que es una infección de las vías respiratorias superiores.
 
 
-<img src="img/Imagen1.png" width="90%"/>
+<img src="img/Imagen1.png" width="70%"/>
 
 
 ---
@@ -442,7 +444,7 @@ A continuación hay una guía de como trabajar algunas variables en R de la base
 library(haven)
 
 
-Educ = read_dta("G:/Mi unidad/Clases/Javeriana/2021-2/Educación.dta")
+Educ = read_dta("G:/Mi unidad/Clases/Javeriana/2023-1/Educación.dta")
 
 View(Educ)
 

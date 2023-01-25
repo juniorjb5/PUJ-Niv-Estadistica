@@ -384,7 +384,7 @@ class: inverse, center, middle
 
 ## Dícese de .... `r icon("glasses")`
 
-![](https://media.giphy.com/media/HGk5ltdikjGAubGQkc/giphy.gif)
+![](https://media.giphy.com/media/1oGXJMUOuHFxC2iKcG/giphy.gif)
 
 ]
 
