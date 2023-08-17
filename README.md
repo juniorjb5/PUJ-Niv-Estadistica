@@ -6,7 +6,7 @@
 ## Docente: Orlando Joaqui Barandica 
 orlando.joaqui@javerianacali.edu.co
 
-www.joaquibarandica.com
+[www.joaquibarandica.com](https://www.joaquibarandica.com/)
 
 En esta página podrá encontrar el distinto material del nivelatorio
 
