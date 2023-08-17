@@ -21,7 +21,7 @@ En esta página podrá encontrar el distinto material del nivelatorio
 
 ### ➡️ Clase 5. [Pruebas de hipótesis](https://juniorjb5.github.io/PUJ-Niv-Estadistica/Class_5/Class_5.html)
 
-### ➡️ [Datos](https://correounivalleeduco-my.sharepoint.com/:f:/g/personal/orlando_joaqui_correounivalle_edu_co/El-obeIY-NJLtFvl8qspVq0Bh6SejVvJQFupztlZLvr-cQ?e=pScuMy)
+### ➡️ [Datos](https://correounivalleeduco-my.sharepoint.com/:f:/g/personal/orlando_joaqui_correounivalle_edu_co/El-obeIY-NJLtFvl8qspVq0Bh6SejVvJQFupztlZLvr-cQ?e=vaXuHR)
 
 
 
