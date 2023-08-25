@@ -24,3 +24,7 @@ En esta página podrá encontrar el distinto material del nivelatorio
 ### ➡️ [Datos](https://correounivalleeduco-my.sharepoint.com/:f:/g/personal/orlando_joaqui_correounivalle_edu_co/El-obeIY-NJLtFvl8qspVq0Bh6SejVvJQFupztlZLvr-cQ?e=vaXuHR)
 
 ### ➡️ [Grabación 1.](https://correounivalleeduco-my.sharepoint.com/:v:/g/personal/orlando_joaqui_correounivalle_edu_co/EU7qdTY8UkRKj9CuzBk1hOQBuRPWZ-SHau6O192hUgqGVQ?e=W28xpS)
+
+### ➡️ [Grabación 2.](https://correounivalleeduco-my.sharepoint.com/:v:/g/personal/orlando_joaqui_correounivalle_edu_co/ET_D3meBTCJCuKjm0YNBpdUB_BBJaCBP9M7TAqSLzKRsnw?e=mLOIGb)
+
+### ➡️ [Grabación 3.](https://correounivalleeduco-my.sharepoint.com/:v:/g/personal/orlando_joaqui_correounivalle_edu_co/EaA22vjdHBNNjDyLwDcCgy8BDnpuwnkRobsHVW1Ls1lA-A?e=d08ZTk)
